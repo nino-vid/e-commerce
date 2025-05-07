@@ -1,0 +1,45 @@
+.stripe-form {
+    max-width: 480px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    font-family: "Segoe UI", sans-serif;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .stripe-element-wrapper {
+    margin-bottom: 20px;
+    min-height: 150px;
+  }
+  
+  .stripe-submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6772e5;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .stripe-submit-button:hover {
+    background-color: #5469d4;
+  }
+  
+  .stripe-submit-button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+  }
+  
+  .stripe-message {
+    margin-top: 12px;
+    color: #e74c3c;
+    font-size: 14px;
+  }
+  
